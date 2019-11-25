@@ -445,9 +445,12 @@ PRODUCT_PACKAGES += \
     android.hardware.thermal@1.0-service \
     thermal.msmnile
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    DeviceSettings
+
 # tri-state key
 PRODUCT_PACKAGES += \
-    KeyHandler \
     tri-state-key_daemon
 
 # Update engine
